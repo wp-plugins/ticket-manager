@@ -1,0 +1,169 @@
+
+.my_textbox .txtInput{
+    background-repeat: no-repeat;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    height: 27px;
+    width: 205px;
+}
+#results .evntdata {
+    background-color: #FFFFFF;
+    border-bottom: thin solid #999999;
+    height: 35px;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+#results .evntdata a {
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+	cursor:pointer;
+}
+#results .evntdata a:hover{text-decoration:underline;}
+#main_div .listing .heads .performer{ color: #7E7E7E;  font-size: 12px; text-decoration:none; font-weight:normal;}
+#main_div .listing .heads:hover{text-decoration:none;}
+#main_div .listing .heads .performer:hover{text-decoration:none;}
+#main_div a:hover{text-decoration:none;}
+#page_navigation_inbox{   margin-top: 10px;}
+#results {
+    background-color: #FFFFFF;
+    border: 1px solid #B6B6B6;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 0 5px 2px #B6B6B6;
+    position: absolute;
+    z-index: 10;
+}
+#page_navigation_inbox .page_link{
+    background: url("../images/pagingb.jpg") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    height: 30px;
+    list-style: none outside none;
+    margin-left: 10px;
+    padding-top: 2px;
+    text-align: center;
+    width: 30px;
+	text-decoration:none;}
+#page_navigation_inbox .page_link:hover{
+	background:url(../images/pagingb1.jpg) no-repeat;
+    color: #FFFFFF;
+    float: left;
+    height: 30px;
+    list-style: none outside none;
+    margin-left: 10px;
+    padding-top: 2px;
+    width: 30px;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none;}
+#page_navigation_inbox .active_page{
+	background:url(../images/pagingb1.jpg) no-repeat;}
+.res {
+    height: auto;
+    max-height: 250px;
+    width: 450px;
+}
+.titles .ecount .tCount{font-weight:bold; color:#1B64A3;}
+.my_textbox{
+    width: auto;
+    height: 40px;
+}
+#main_div .listing .heads{
+	padding-top:5px;
+	color:#008fee;
+	font-size:11px;
+       clear: right;
+	height:62px;
+        padding-left: 125px;
+}
+#main_div .listing .date{
+	margin:0;
+	float:left;
+	width:110px;
+	background-color:#f7f7f7;
+	border-right:thin solid #CCCCCC;
+	height:85px;
+	font-size:11px;
+	font-weight:900;
+	color:#666666;
+}
+#main_div .listing .date span{
+	vertical-align:middle;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+}
+#main_div .tbutton{
+	margin-top:-34px;
+	margin-right:10px;
+	float:right;
+	}
+#main_div .listing {
+        clear: both;
+	height:85px; 
+	background-color:#FFFFFF; 
+	width:664px;
+	border-bottom:thin solid #CCCCCC;
+	border-left:thin solid #CCCCCC;
+	border-right:thin solid #CCCCCC;
+	margin:0 0 0 20px;
+	border-top:thin solid #CCCCCC;
+}
+div.pp_pic_holder {
+    display: none;
+    position: absolute;
+    width: 100px;
+    z-index: 10000;
+    top: 0% !important;
+}
+div.pp_overlay {
+    background: none repeat scroll 0 0 #000000;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9500;
+}
+.poweredBy{    
+    background-color: #D5EFFE;
+    height: 27px;
+    padding: 5px;
+    width: 205px;}
+.poweredBy a:hover{text-decoration:none;}
+.my_textbox  #txtInput{
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-decoration: none;
+}
+.my_textbox  #btnEnter{
+    background: url("../images/search.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    left: -27px;
+    position: relative;
+    top: 2px;
+    width: auto;
+	padding: 5px;}
+#resultEvents #main_div .tbutton1{text-decoration:none;}
+#resultEvents #main_div .avg_price{ margin-right: 20px;}
+#resultEvents #main_div .price{
+    float: left;
+    font-size: 11px;
+    padding-left: 0;
+}
+#resultEvents #main_div .price span{
+    color: #7E7E7E;
+	font-weight: normal;
+	}
+#resultEvents #main_div .event-title{
+	font-weight:bold;
+}
+#resultEvents #main_div .price .bold{font-weight:bold;}
+#resultEvents #main_div{font-weight:bold;}
