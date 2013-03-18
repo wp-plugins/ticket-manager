@@ -5,7 +5,8 @@ Requires at least: 1
 Tested up to: 3.5.1
 Stable tag: 1.3.3
 
-The Ticket Manager helps you compare tickets found on sites like Stubhub, Ebay. The results are returned from external website 'Seatgeak.com'.
+The Ticket Manager helps you compare tickets found on sites like Stubhub, Ebay.
+
 
 
 == Description ==
