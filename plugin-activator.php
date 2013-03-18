@@ -155,7 +155,8 @@ class TicketWidget extends WP_Widget {
 			</form>
         </div>
 
-        <div id="results" class="res" style="display: none;"></div>     
+        <div id="results" class="res" style="display: none;">
+		</div>     
 
         <?php
         echo $after_widget;
@@ -205,7 +206,8 @@ function TicketWidgetInit() {
     register_widget('TicketWidget');
 }
 
-function append_tickets_results($content) {        
+function append_tickets_results($content) { 
+		$url=plugins_url() . '/ticket-manager/images/footer-logo.png';   
         $new_content = '<div id="resultEvents"></div>';
         $content = $content . $new_content;
         return $content;
@@ -329,7 +331,7 @@ add_filter('the_title', 'remove_page_title');
                     });  
                     var $pagination = jQuery('<div>')
                     .attr('id','page_navigation_inbox')						  
-                    $pagination.appendTo('#resultEvents');	  
+                    $pagination.appendTo('#resultEvents');				
         					     
                     var show_per_page = 25;  
                     var number_of_items = jQuery('#main_div').children().size(); 					
@@ -354,7 +356,12 @@ add_filter('the_title', 'remove_page_title');
 					jQuery('.page_link[longdesc=' + 0 +']').addClass('active_page').siblings('.active_page').removeClass('active_page');    
 					//update the current page input field  
 					jQuery('#current_page').val(0);    
-            
+					
+					//jQuery('.poweredBy').show();
+					 var $powered = jQuery('<div>')
+                    .attr('class','poweredBy')						  
+                    $powered.appendTo('#resultEvents');	
+					jQuery('.poweredBy').html('Seach powered by');           
                     
                 }
         		 
