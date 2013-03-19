@@ -26,7 +26,13 @@
 #main_div .listing .heads:hover{text-decoration:none;}
 #main_div .listing .heads .performer:hover{text-decoration:none;}
 #main_div a:hover{text-decoration:none;}
-#page_navigation_inbox{   margin-top: 10px;}
+#page_navigation_inbox{ 
+    clear: both;
+    float: left;
+    height: auto;
+    margin-top: 10px;
+    width: 350px;
+}
 #results {
     background-color: #FFFFFF;
     border: 1px solid #B6B6B6;
@@ -75,14 +81,14 @@
 	padding-top:5px;
 	color:#008fee;
 	font-size:11px;
-       clear: right;
+    clear: right;
 	height:62px;
-        padding-left: 125px;
+    padding-left: 100px;
 }
 #main_div .listing .date{
 	margin:0;
 	float:left;
-	width:110px;
+	width:90px;
 	background-color:#f7f7f7;
 	border-right:thin solid #CCCCCC;
 	height:85px;
@@ -102,14 +108,14 @@
 	float:right;
 	}
 #main_div .listing {
-        clear: both;
+    clear: both;
 	height:85px; 
 	background-color:#FFFFFF; 
-	width:664px;
+	width:580px;
 	border-bottom:thin solid #CCCCCC;
 	border-left:thin solid #CCCCCC;
 	border-right:thin solid #CCCCCC;
-	margin:0 0 0 20px;
+	margin:0 0 0 0;
 	border-top:thin solid #CCCCCC;
 }
 div.pp_pic_holder {
@@ -129,28 +135,29 @@ div.pp_overlay {
     z-index: 9500;
 }
 .poweredBy{    
-    background-color: #D5EFFE;
+    background: url("../images/logo.png") no-repeat scroll right bottom #87DDFF;
+    border-radius: 11px 11px 11px 11px;
+    color: white;
+    float: right;
+    font-family: "Trebuchet MS",Helvetica,Jamrul,sans-serif;
     height: 27px;
+    margin-right: 105px;
+    margin-top: 10px;
     padding: 5px;
-    width: 205px;}
+    width: 221px;
+}
+#resultEvents{
+    height: auto;
+    width: 686px;
+}
 .poweredBy a:hover{text-decoration:none;}
-.my_textbox  #txtInput{
+.my_textbox .txtInput{
     color: #000000;
     font-family: Verdana,Arial,Helvetica,sans-serif;
     font-size: 11px;
     text-decoration: none;
+    background: url("../images/search.png") no-repeat scroll right transparent;
 }
-.my_textbox  #btnEnter{
-    background: url("../images/search.png") no-repeat scroll 0 0 transparent;
-    border: 0 none;
-    cursor: pointer;
-    display: inline-block;
-    height: auto;
-    left: -27px;
-    position: relative;
-    top: 2px;
-    width: auto;
-	padding: 5px;}
 #resultEvents #main_div .tbutton1{text-decoration:none;}
 #resultEvents #main_div .avg_price{ margin-right: 20px;}
 #resultEvents #main_div .price{
