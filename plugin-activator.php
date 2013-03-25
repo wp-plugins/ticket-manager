@@ -361,7 +361,11 @@ add_filter('the_title', 'remove_page_title');
 					 var $powered = jQuery('<div>')
                     .attr('class','poweredBy')						  
                     $powered.appendTo('#resultEvents');	
-					jQuery('.poweredBy').html('Seach powered by');           
+					jQuery('.poweredBy').html('Seach powered by');    
+					 var $aid = jQuery('<div>')
+                    .attr('class','aidDet')						  
+                    $aid.appendTo('#resultEvents');	
+					jQuery('.aidDet').html('http://api.seatgeek.com/2/events?aid=829');           
                     
                 }
         		 
