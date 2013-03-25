@@ -174,3 +174,10 @@ div.pp_overlay {
 }
 #resultEvents #main_div .price .bold{font-weight:bold;}
 #resultEvents #main_div{font-weight:bold;}
+#resultEvents .aidDet{
+    clear: both;
+    color: #1D67A6;
+    float: left;
+    font-size: 13px;
+    margin-left: 10px;
+}
