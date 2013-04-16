@@ -365,10 +365,10 @@ function ticket_listing(){
 					.attr('target','_blank')						  
                     $powered.appendTo('#resultEvents');	
 					jQuery('.poweredBy').html('Seach powered by');    
-					 var $aid = jQuery('<div>')
+/*					 var $aid = jQuery('<div>')
                     .attr('class','aidDet')						  
                     $aid.appendTo('#resultEvents');	
-					jQuery('.aidDet').html('http://api.seatgeek.com/2/events?aid=829');           
+					jQuery('.aidDet').html('http://api.seatgeek.com/2/events?aid=829');  */         
                     
                 }
         		 
