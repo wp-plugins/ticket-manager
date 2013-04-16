@@ -144,8 +144,10 @@ div.pp_overlay {
     margin-right: 105px;
     margin-top: 10px;
     padding: 5px;
+	text-decoration:none;
     width: 221px;
 }
+.poweredBy:hover{ text-decoration:none; }
 #resultEvents{
     height: auto;
     width: 686px;
