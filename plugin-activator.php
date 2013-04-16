@@ -209,7 +209,7 @@ function TicketWidgetInit() {
 function append_tickets_results($content) { 
 		$url=plugins_url() . '/ticket-manager/images/footer-logo.png';   
         $new_content = '<div id="resultEvents"></div>';
-        $content = $content . $new_content;
+        $content = $new_content;
         return $content;
     }
 function remove_page_title($title){
@@ -224,7 +224,8 @@ function ticket_listing(){
 	$id = $wp_query->post->ID;
     $search_id = $_GET['search_ticket'];
 	if($search_id!= ''){
-add_filter('the_title', 'remove_page_title');
+	add_filter('the_title', 'remove_page_title');
+	add_filter('the_content', 'append_tickets_results');
         ?>
         <script type="text/javascript">
             jQuery(document).ready(function(){
@@ -360,7 +361,8 @@ add_filter('the_title', 'remove_page_title');
 					//jQuery('.poweredBy').show();
 					 var $powered = jQuery('<a>')
                     .attr('class','poweredBy')	
-					.attr('href','http://seatgeek.com?aid=829')						  
+					.attr('href','http://seatgeek.com?aid=829')	
+					.attr('target','_blank')						  
                     $powered.appendTo('#resultEvents');	
 					jQuery('.poweredBy').html('Seach powered by');    
 					 var $aid = jQuery('<div>')
@@ -408,6 +410,6 @@ add_filter('the_title', 'remove_page_title');
 	}
 }
 add_action('wp_head', 'ticket_listing');
-add_filter('the_content', 'append_tickets_results');
+
 
 ?>
